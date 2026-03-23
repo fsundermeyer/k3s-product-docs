@@ -22,7 +22,7 @@ Un exemple du processus :
 * Dans v1.22.15, v1.23.11 et v1.24.3, `--foo` continue d'exister, mais avertira les utilisateurs :
 +
 ----
-[Warning] --foo will be deprecated in v1.25.0, use `+--new-foo+` instead
+[Warning] --foo will be deprecated in v1.25.0, use `--new-foo` instead
 ----
 +
 `--foo` continuera d'exister en tant qu'indicateur opérationnel pendant la durée de v1.22, v1.23 et v1.24.

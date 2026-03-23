@@ -108,7 +108,7 @@ metadata:
  # This value must be privileged for the controller to run successfully.
  pod-security.kubernetes.io/enforce: privileged
  pod-security.kubernetes.io/enforce-version: v1.25
- # We are setting these to our _desired_ `+enforce+` level, but note that these below values can be any of the available options.
+ # We are setting these to our _desired_ `enforce` level, but note that these below values can be any of the available options.
  pod-security.kubernetes.io/audit: privileged
  pod-security.kubernetes.io/audit-version: v1.25
  pod-security.kubernetes.io/warn: privileged
